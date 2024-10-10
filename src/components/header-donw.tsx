@@ -9,15 +9,8 @@ type Props = {
 
 export const HeaderDown = ({ children, dataImage }: Props) => {
   return (
-    <main className="flex min-h-screen flex-row items-center justify-center bg-themeSecundary">
-      <Image
-        src={dataImage.src}
-        alt={dataImage.alt}
-        width={dataImage.width}
-        height={dataImage.height}
-        className={dataImage.class}
-      />
-      <div className="flex flex-col w-[700px] max-w-6xl  bg-themePrimary p-5 justify-center items-center rounded-xl">
+    <main className="flex flex-1 h-full w-full flex-row items-center justify-center bg-themePrimary/20 text-themeLight">
+      <div className="bg-themeInative/20 p-3 rounded-xl  flex justify-center items-center ">
         {children}
       </div>
     </main>

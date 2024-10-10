@@ -8,11 +8,11 @@ export default function Home() {
     alt: "Icone cartão de Credito",
     width: 250,
     height: 50,
-    class: "-ml-[300px]",
+    class: "-mr-[300px]",
   };
 
   return (
-    <main className="flex min-h-screen flex-row items-center justify-center bg-themeSecundary">
+    <main className="flex h-screen w-screen flex-row  bg-themeSecundary">
       <HeaderDown dataImage={data}>
         <Rotule label="Recebidos:" value={"0"} />
       </HeaderDown>
